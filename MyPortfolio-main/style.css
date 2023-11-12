@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    background-color: #0E1117;
+    color: white;
+    width: 70%;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    margin-bottom: 200px;
+    font-size: 20px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 200px;
+    margin-bottom: 200px;
+   
+}
+
+h1{
+    margin-bottom: 30px;
+}
+
+p{
+    margin-bottom: 20px;
+    
+}
+
+.right img{
+    box-shadow: 5px 5px #66dda5;
+}
+
+.resume{
+    color: white;
+    border: 2px solid #66dda5;
+    padding: 10px 20px;
+}
+
+.resume:hover {
+    background-color: #66dda5;
+    font-weight: bold;
+    border: 2px solid white;
+    color: black;
+}
+
+#skills{
+    margin-bottom: 200px;
+}
+
+#skills ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#skills img{
+    width: 200px;
+}
+
+#projects{
+    margin-bottom: 200px;
+}
+
+#projects ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+#projects ul li img{
+    width: 100%;
+    height: 70%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 200px;
+}
+
+input#message{
+    height: 100px;
+    color: black;
+    padding: 5px;
+}
+
+.submit{
+    border: none;
+    width: 150px;
+    padding: 20px;
+    color: black;
+    box-shadow: 5px 5px #66dda5;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #8f8f8f;
+    font-weight: bold;
+}
+
+footer p{
+    text-align: center;
+}
